@@ -8,7 +8,7 @@ The Text-to-Video Retrieval (T2VR) task aims to retrieve unlabeled videos by tex
 ## Method
 
 ![Method
-Diagram](./images/fk-framework-fat.drawio.jpg){style="width:100%; display: block; margin: 0 auto;"}
+Diagram](./images/fk-framework-fat.drawio.jpg)
 
 
 
@@ -17,7 +17,7 @@ An overview of our proposed F-Pig for text-to-video retrieval: (a) the overall s
 ## Qualitative Results
 
 ![Qualitative
-Results](./images/fk-vis.jpg){style="width:80%; display: block; margin: 0 auto;"}
+Results](./images/fk-vis.jpg)
 
 
 To analyze the effectiveness of our proposed Informativeness Token Selector (ITS) module, we visualize the selected patch-level tokens on the MSRVTT-1k test dataset. The first row in each example shows the patch-level tokens selected by ITS, which are then fed into the pseudo-query generator for fine-grained pseudo-query generation. The second row shows the attention maps within each frame. The corresponding patch tokens with the phrases in the query are highlighted in the same color. We can see that our selected tokens capture the fine-grained information needed to generate discriminative pseudo-queries.

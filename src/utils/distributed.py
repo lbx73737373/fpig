@@ -1,10 +1,3 @@
-"""
-Copyright (c) Microsoft Corporation.
-Licensed under the MIT license.
-distributed API using Horovod
-Modified from OpenNMT's native pytorch distributed utils
-(https://github.com/OpenNMT/OpenNMT-py)
-"""
 
 import math
 import pickle
